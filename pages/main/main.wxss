@@ -1,0 +1,48 @@
+@import "../../lib/weui.wxss";
+page{
+  background-color: lightgray;
+}
+#map-row{
+  justify-content: center
+}
+.map{
+  border: 12rpx inset white;
+}
+.holder{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.bn{
+  background-color: lightgray;
+  text-align: center;
+  border: 10rpx outset white;
+  width: 75rpx;
+  height: 75rpx;
+}
+.taker{
+  background-color: lightgray;
+  width: 750rpx;
+  height: 26rpx;
+}
+#dad{
+  width: 726rpx;
+  height: 150rpx;
+  border: 12rpx inset white;
+}
+.bn-flag{
+  width: 70rpx;
+  height: 70rpx;
+}
+.bn-smile{
+  width: 72rpx;
+  height: 75rpx;
+}
+#canflag-true{
+  border: 10rpx inset white;
+}
+#canflag-false{
+  border: 10rpx outset white;
+}

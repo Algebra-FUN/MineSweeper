@@ -1,0 +1,46 @@
+<!--unit/unit.wxml-->
+<view class="holder">
+  <view wx:if="{{isTap}}">
+    <view wx:if="{{value==9}}">
+      <view class="unit-1">
+        <image class="redmine" src="../image/redmine.jpg" mode="aspectFit"/>
+      </view>
+    </view>
+    <view wx:else>
+      <view class="unit-1">
+        <text class="text-{{value}}">{{value}}</text>
+      </view>
+    </view>
+  </view>
+  <view wx:else>
+    <view wx:if="{{isOver}}">
+      <view wx:if="{{value==9}}">
+        <view class="unit-0">
+          <image class="flag" src="../image/mine.jpg" mode="aspectFit"/>
+        </view>
+      </view>
+      <view wx:else>
+        <view class="unit-0"/>
+      </view>
+    </view>
+    <view wx:else>
+      <view wx:if="{{canFlag}}">
+        <view class="unit-0" bindtap="setFlag">
+          <view wx:if="{{isFlag}}">
+            <image class="flag" src="../image/flag.jpg" mode="aspectFit"/>
+          </view>
+        </view> 
+      </view>
+      <view wx:else>
+         <view wx:if="{{isFlag}}">
+          <view class="unit-0">
+            <image class="flag" src="../image/flag.jpg" mode="aspectFit"/>
+          </view>
+        </view>
+        <view wx:else>
+          <view class="unit-0" bindtap="bt"/>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

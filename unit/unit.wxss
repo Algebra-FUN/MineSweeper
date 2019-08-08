@@ -1,0 +1,55 @@
+.holder{
+  width: 73rpx;
+  height: 73rpx;
+  justify-content: center
+}
+.text-0{
+  color: lightgray
+}
+.text-1{
+  color: blue
+}
+.text-2{
+  color: green
+}
+.text-3{
+  color: red
+}
+.text-4{
+  color: darkblue
+}
+.text-5{
+  color: darkred
+}
+.text-6{
+  color: cyan
+}
+.text-7{
+  color: black
+}
+.text-8{
+  color: darkgray
+}
+.unit-0{
+  background-color: lightgray;
+  text-align: center;
+  border: 10rpx outset white;
+  width: 53rpx;
+  height: 53rpx;
+}
+.unit-1{
+  background-color: lightgray;
+  text-align: center;
+  font-size: 43rpx;
+  border: 3rpx solid grey;
+  width: 69.5rpx;
+  height: 69.5rpx;
+}
+.flag{
+  width: 53rpx;
+  height: 53rpx;
+}
+.redmine{
+  width: 68rpx;
+  height: 68rpx;
+}
